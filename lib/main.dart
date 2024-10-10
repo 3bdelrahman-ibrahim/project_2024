@@ -20,7 +20,7 @@ class QrCodeApp extends StatelessWidget {
           child: Stack(
             alignment: Alignment.center,
             children: [
-              PrettyQr(
+              const PrettyQr(
                 data: 'https://example.com',
                 size: 300,
                 errorCorrectLevel: QrErrorCorrectLevel.H,

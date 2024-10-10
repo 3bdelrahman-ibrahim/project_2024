@@ -1,0 +1,4 @@
+git push -u origin main                    
+git add .     
+git commit -m "Your descriptive commit message"
+git push origin main  # or git push origin master
